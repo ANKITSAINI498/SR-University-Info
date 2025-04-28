@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form#userForm {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+input,
+select,
+textarea {
+  background-color: #f1f3f5;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  background-color: #e7f0fd;
+  border-color: #0d6efd;
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.card {
+  transition: all 0.4s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.bg-dark .card {
+  background-color: #343a40 !important;
+  color: #ffffff;
+}
+
+.border-warning {
+  border: 2px dashed #ffc107 !important;
+}
+
+
+#search {
+  padding: 8px 12px;
+  border: 2px solid #0d6efd;
+}
+
+
+.alert-info {
+  font-weight: bold;
+  font-size: 1rem;
+
+}
+
+
+button.position-fixed {
+  border-radius: 50%;
+  padding: 12px 15px;
+  font-size: 1.2rem;
+  z-index: 9999;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.card-img-top {
+  width: 75%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(109, 36, 245, 0.2), 0 6px 20px 0 rgba(244, 46, 46, 0.615);
+  border-radius: 10px;
+}
+
+.card {
+  --card-gradient: #d5d95e, #593ae0;
+
+  background-image: linear-gradient(var(--card-gradient),
+      white max(10.5rem, 60vh));
+
+  
+}
+h2{
+  font-family: "Sofia", sans-serif;
+  font-size: 100px;
+  text-shadow: 5px 5px 5px #f43f3f;
+}
+h1{
+  font-family: "Sofia", sans-serif;
+  font-size: 40px;
+  text-shadow: 3px 3px 3px #ababab;
+}
